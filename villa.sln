@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "villa.valla1", "villa.valla1\villa.valla1.csproj", "{CE263494-66F2-4848-8EEB-6204FBDDA532}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE263494-66F2-4848-8EEB-6204FBDDA532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE263494-66F2-4848-8EEB-6204FBDDA532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE263494-66F2-4848-8EEB-6204FBDDA532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE263494-66F2-4848-8EEB-6204FBDDA532}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
