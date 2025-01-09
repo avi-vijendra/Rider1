@@ -470,24 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Datamatics\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Avinash Vijendra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Datamatics\\RiderProjects\\villa\\villa.valla1\\villa.valla1.csproj",
+      "projectUniqueName": "C:\\Users\\Avinash Vijendra\\RiderProjects\\Rider1\\villa.valla1\\villa.valla1.csproj",
       "projectName": "villa.valla1",
-      "projectPath": "C:\\Users\\Datamatics\\RiderProjects\\villa\\villa.valla1\\villa.valla1.csproj",
-      "packagesPath": "C:\\Users\\Datamatics\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Datamatics\\RiderProjects\\villa\\villa.valla1\\obj\\",
+      "projectPath": "C:\\Users\\Avinash Vijendra\\RiderProjects\\Rider1\\villa.valla1\\villa.valla1.csproj",
+      "packagesPath": "C:\\Users\\Avinash Vijendra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Avinash Vijendra\\RiderProjects\\Rider1\\villa.valla1\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Datamatics\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Avinash Vijendra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -495,7 +490,6 @@
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -513,7 +507,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -547,7 +542,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Avinash Vijendra\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -15,7 +15,11 @@ public class VillaAPiController : ControllerBase
         return Ok(VillaStore.vilalList);
 
     }
-    [HttpGet("{Id:int}")]
+    [HttpGet("{Id:int}")]   
+   // [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(VillaDTO))]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public ActionResult<VillaDTO> GetVilla(int Id)
     {
         if (Id == 0)
@@ -29,5 +33,25 @@ public class VillaAPiController : ControllerBase
         }
         return Ok(villa);
 
+    }
+
+    [HttpPost]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public ActionResult<VillaDTO> CreateVilla([FromBody]VillaDTO villa)
+    {
+        if (villa == null)
+        {
+            return BadRequest(villa);
+        }
+
+        if (villa.Id > 0)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError);
+        }
+        villa.Id = VillaStore.vilalList.OrderByDescending(u=>u.Id).FirstOrDefault(v => v.Id == villa.Id).Id+1;
+        VillaStore.vilalList.Add(villa);
+        return Ok(villa);
     }
 }
